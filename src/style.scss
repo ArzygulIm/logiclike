@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1083px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 815px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -9px;
+    row-gap: 18px;
+}
+
+.col-4 {
+    width: 33.33333%;
+    padding: 0 9px;
+}
